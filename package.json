@@ -1,5 +1,11 @@
 {
 	"name": "eslint-plugin-strict-assert",
-	"version": "0.0.1",
- 	"main": "index.js"
+	"version": "0.1.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "node ./tests.js"
+	},
+	"dependencies": {
+		"eslint": "^6.5.1"
+	}
 }
