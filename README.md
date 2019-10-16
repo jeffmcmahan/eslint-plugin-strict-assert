@@ -1,7 +1,5 @@
 # Strict Assert
 
-This module provides many safeguards suited to my sparing idiosyncratic style.
-
 ## strict-import-only
 
 The assert module must imported exactly as follows: 
