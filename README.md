@@ -15,7 +15,7 @@ First, this means you won't use the non-strict version by accident (which you sh
 You are permitted to pass *only* the required arguments to the functions provided by the assert module. Optional arguments, no matter how helpful or pleasing you find them, are absolutely forbidden. If only required arguments are passed, it's trivial to spot errant invocations, like the following:
 
 ```js
-assert.equal(typeof value === 'string')
+assert(typeof value, 'string') // should have been assert.equal
 ```
 
 ## valid-typeof-comparisons
